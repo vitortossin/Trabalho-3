@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Paciente {
     private String nome;
-    private String cpf;
+    private final String cpf;
     private String dataNascimento;
     private String endereco;
     private String telefone;
@@ -31,10 +31,6 @@ public class Paciente {
 
     public String getCpf() {
         return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
     }
 
     public String getDataNascimento() {
@@ -67,10 +63,6 @@ public class Paciente {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public List<String> getHistoricoDoencas() {
-        return historicoDoencas;
     }
 
     public void setHistoricoDoencas(List<String> historicoDoencas) {

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PacienteController {
-    private List<Paciente> pacientes;
+    private final List<Paciente> pacientes;
 
     public PacienteController() {
         this.pacientes = new ArrayList<>();

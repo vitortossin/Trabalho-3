@@ -3,7 +3,7 @@ package model;
 public class Medico {
     private String nome;
     private String especialidade;
-    private String crm;
+    private final String crm;
     private String email;
     private String telefone;
 
@@ -34,10 +34,6 @@ public class Medico {
 
     public String getCrm() {
         return crm;
-    }
-
-    public void setCrm(String crm) {
-        this.crm = crm;
     }
 
     public String getEmail() {
